@@ -4,7 +4,7 @@ const find = require('appium-flutter-finder');
 
 const osSpecificOps = process.env.APPIUM_OS === 'android' ? {
   platformName: 'Android',
-  deviceName: 'emulator-5554',
+  deviceName: 'HUFIWC4TM7MF9LKN',
   // @todo support non-unix style path
   app: __dirname +  '/../build/app/outputs/apk/debug/app-debug.apk',
 }: process.env.APPIUM_OS === 'ios' ? {
